@@ -1,0 +1,5 @@
+  st.metric("Weather", f"{weather_data(weather['main'])}")
+                    st.metric("Description ", f"{weather_data['description']}")
+                with col1:
+                    st.matric("Temperature 🌡️", f"{weather_data['main']['temp'] - 273.15:2f} °C ")
+                    st.matric("Humidity 💧", f"{weather_data['main']['humidity']}% ")
