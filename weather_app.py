@@ -81,7 +81,7 @@ def app():
     city = st.sidebar.text_input("Enter city Name", "Ahmedabad")
 
     ##APIs
-    weather_api_key="82345b6ce87fc487140aef11613dd609"
+    weather_api_key="YOUR_API_KEY"
 
     ## Submit button
     submit = st.sidebar.button("Get Weather")
