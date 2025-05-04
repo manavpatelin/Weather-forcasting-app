@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 st.set_page_config(page_title="Weather Forecast App",page_icon="🌤️",layout="centered")
-
+Weather_api_key = "5bfaffd1cf10345a1b701c3dd201e50b"
 
 def get_weather_data(city,Weather_api_key):
     base_url = "https://api.openweathermap.org/data/2.5/weather?"
